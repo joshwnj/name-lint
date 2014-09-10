@@ -1,0 +1,15 @@
+{
+  "name": "name-lint",
+  "version": "1.0.0",
+  "description": "Check directories and files for naming consistency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joshwnj",
+  "license": "MIT",
+  "dependencies": {
+    "findit": "^2.0.0",
+    "minimatch": "^1.0.0"
+  }
+}
