@@ -1,15 +1,24 @@
 {
   "name": "name-lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check directories and files for naming consistency.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "lint",
+    "naming",
+    "conventions"
+  ],
   "author": "joshwnj",
   "license": "MIT",
   "dependencies": {
     "findit": "^2.0.0",
     "minimatch": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshwnj/name-lint.git"
   }
 }
