@@ -1,14 +1,14 @@
 var lint = require('..');
-var lowerSnakeCase = /^[a-z0-9\-]+$/;
+var lowerDashCase = /^[a-z0-9\-]+$/;
 var opts = {};
 
-// we want directories to use lower-snake-case
-opts.dirFormat = lowerSnakeCase;
+// we want directories to use lower-dash-case
+opts.dirFormat = lowerDashCase;
 
 opts.fileFormats = {
   // and js / html files as well
-  '.js': lowerSnakeCase,
-  '.html': lowerSnakeCase,
+  '.js': lowerDashCase,
+  '.html': lowerDashCase,
 
   // scss files sometimes start with an underscore to indicate a mixin
   '.scss': /^_?[a-z0-9\-]+$/
