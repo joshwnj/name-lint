@@ -1,6 +1,6 @@
 {
   "name": "name-lint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check directories and files for naming consistency.",
   "main": "index.js",
   "scripts": {
