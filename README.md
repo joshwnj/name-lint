@@ -18,7 +18,7 @@ lint(dir, options, function (err, matches) {
 - `options`: object containing the following:
  - `dirFormat`: regexp of the expected format for directories
  - `fileFormats`: key-value map of file extensions to expected regexp format (see [examples](./examples/lower-dash-case.js))
- - `exclude`: array of glob patterns (refer to https://www.npmjs.org/package/minimatch). When a directory matching one of these is reached we ignore the directory and everything in it.
+ - `exclude`: array of glob patterns (refer to <https://www.npmjs.org/package/minimatch>). When a directory matching one of these is reached we ignore the directory and everything in it.
 
 License
 ----
