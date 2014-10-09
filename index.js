@@ -57,6 +57,8 @@ module.exports = function (dir, opts, callback) {
   var finder = findit(dir);
   var matches = [];
 
+  if (!opts.exclude) { opts.exclude = []; }
+
   finder.on('directory', function (dir, stat, stop) {
     var base = path.basename(dir);
 
