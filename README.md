@@ -1,6 +1,8 @@
 name-lint
 ====
 
+[![Build Status](https://secure.travis-ci.org/joshwnj/name-lint.png)](http://travis-ci.org/joshwnj/name-lint)
+
 Check directories and files for naming consistency.
 
 Usage
